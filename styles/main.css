@@ -20,6 +20,7 @@ header {
   flex: 1;
 }
 
+
 .name {
   font-size: 28px;
   font-weight: 600;
@@ -43,21 +44,23 @@ header {
 }
 
 .section {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
 }
 
 .about {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  min-height: 375px;
+  min-height: 300px;
 }
 
 .photo {
-  background: url('../images/jaws.jpg') center 50%;
+  display: flex;
+  background: url('../images/photo.jpg') center 30%;
   background-size: cover;
-  min-height: 300px;
-  width: 50%;
+  min-height: 400px;
+  width: 250px;
+
 }
 
 .description {
@@ -144,6 +147,6 @@ header {
 }
 
 .stattleship {
-  height: 40%;
+  height: 50%;
   width: 40%;
 }
